@@ -1,0 +1,41 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f9f9fa;
+  padding: 20px 40px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  position: relative;
+  color: #2f363e;
+}
+.nav__notification {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  color: white;
+  font-weight: 600;
+  border-radius: 50%;
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+}
+.nav__notifications {
+  display: flex;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  bottom: 30px;
+  left: 28px;
+}
