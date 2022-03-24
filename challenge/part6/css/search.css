@@ -1,0 +1,23 @@
+.search-bar {
+  display: flex;
+  position: relative;
+  bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 40px;
+  border-radius: 50px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.search-bar__column {
+  position: absolute;
+  opacity: 0.3;
+  font-size: 25px;
+}
+.search-bar__column:first-child {
+  left: 10%;
+}
+.search-bar__column:last-child {
+  right: 10%;
+}

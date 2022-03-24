@@ -1,0 +1,13 @@
+@import "css/status.css";
+@import "css/search.css";
+@import "css/main.css";
+@import "css/bigimage.css";
+@import "css/main-poster.css";
+@import "css/authors.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vh;
+  height: 100vh;
+}

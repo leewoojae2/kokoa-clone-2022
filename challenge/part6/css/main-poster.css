@@ -1,0 +1,19 @@
+.main-poster {
+  display: flex;
+
+  overflow-x: hidden;
+}
+.main-poster__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 40px;
+}
+.main-poster img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+}
+.main-poster__icon {
+  margin-top: 40px;
+}

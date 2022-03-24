@@ -1,0 +1,18 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #ffce33;
+  height: 200px;
+}
+
+.status-bar__column :first-child {
+  margin-left: 30px;
+}
+.status-bar__column:nth-child(2) {
+  font-size: 30px;
+}
+.status-bar__column :last-child {
+  margin-right: 30px;
+}
