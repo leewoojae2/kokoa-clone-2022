@@ -10,14 +10,16 @@
   background-color: white;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
+.search-bar__input {
+  position: absolute;
+  left: 10%;
+  opacity: 0.3;
+  font-size: 25px;
+  border: none;
+}
 .search-bar__column {
   position: absolute;
   opacity: 0.3;
   font-size: 25px;
-}
-.search-bar__column:first-child {
-  left: 10%;
-}
-.search-bar__column:last-child {
   right: 10%;
 }
