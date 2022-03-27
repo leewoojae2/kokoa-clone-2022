@@ -1,0 +1,27 @@
+.badge {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  color: white;
+  font-weight: 600;
+  border-radius: 50%;
+}
+.badges {
+  display: flex;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+
+.find-option {
+  position: relative;
+}
+.find-option div {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
