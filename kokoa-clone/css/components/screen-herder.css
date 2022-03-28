@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
+  padding: var(--horizontal-space);
   padding-top: 50px;
   margin-bottom: 15px;
 }
@@ -12,4 +12,26 @@
 }
 .screen-herder__icon span {
   margin-left: 20px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateY(-3px);
+  }
+}
+
+.screen-herder .fa-search:hover {
+  animation: rotateCog 0.1s linear forwards;
+}
+.screen-herder .fa-comment-dots:hover {
+  animation: rotateCog 0.1s linear forwards;
+}
+.screen-herder .fa-music:hover {
+  animation: rotateCog 0.1s linear forwards;
+}
+.screen-herder .fa-cog:hover {
+  animation: rotateCog 0.1s linear forwards;
 }

@@ -1,3 +1,6 @@
+#find-screen {
+  height: 108vh;
+}
 .Recommended-Friends {
   border-bottom: var(--main-border);
   border-top: var(--main-border);
@@ -85,4 +88,20 @@
   margin-left: 5px;
   font-size: 13px;
   margin-top: 40px;
+}
+@keyframes heartBeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+    transform: scale(1.6);
+  }
+  100% {
+    color: white;
+  }
+}
+.open-post__photo__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
